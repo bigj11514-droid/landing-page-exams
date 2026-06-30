@@ -1,0 +1,218 @@
+/* global selectors      box-model */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* styling the navigation bar*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin-top: 15px;
+    background-color: rgb(189, 176, 160);
+    margin-top: 0;
+}
+/*styling the logo*/
+nav h1{
+    font-size: 34px;
+    font-weight: bold;
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+/* styling the unordered list*/
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    list-style: none;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 45px;
+}
+/* styling the links*/
+li a{
+    text-decoration: none;
+    color: black;
+}
+/* hover effect for links*/
+li a:hover{
+    color: rgb(45, 121, 10);
+    transition: 0.9s;
+}
+input[type="email"]{
+    padding: 5px;
+    border: 1px solid gray;
+    width: 250px;
+    height: 15px;
+}
+/*styling h1*/
+h1{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: darkslategray;
+}
+/* effects on the horizontal rule*/
+hr{
+    border: none;
+    height: 2px;
+    background-color: rgb(78, 68, 68);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/*styling the main element*/
+main{
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 100px;
+}
+/*styling the h3*/
+h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+/*styling the h3*/
+h2{
+    font-size: 70px;
+    font-weight: bold;
+    color: darkslategray;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+}
+/*styling the section NOTE:i created two sections.this is the first one. the second section is named as section2*/
+section#info{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*styling the form*/
+form{
+    display: flex;
+    flex-direction: column;
+}
+/*styling the label*/
+input[name="user-name"], input[type="email"]{
+    width:  600px;
+    color: blanchedalmond;
+    height: 40px;
+}
+/*styling the submit button*/
+button{
+    width: 600px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(76, 9, 85);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+    margin-top: 10px;
+}
+/*styling the search bar*/
+input[name="search-bar-nav"]{
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 300px;
+    margin-right: 50px;
+}
+/*styling the section2*/
+#section2{
+    display: flex;
+    gap: 30px;
+    background-color: rgb(189, 176, 160);
+    height: 20%;
+}
+legend{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    padding-bottom: 20px;
+    flex-direction: row;
+}
+/* styling the paragraph element- to which i named "foot"*/
+#foot{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 15px;
+}
+/*giving a color to the horizontal rule*/
+#ruler{
+    width: 90px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 15px;
+    margin-top: -14px;
+}
+/*giving a background color to the parent container*/
+#parent-container{
+    background-color: rgb(189, 176, 160);
+    min-height: 140vh;
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+}
+/*styling the paragraph element*/
+p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+/*styling the image element*/
+img{
+    height: 90%;
+    width: 95%;
+    margin-bottom: 15px;
+}
+@media screen and (orientation: portrait){
+    #parent-container{
+        width: 100%;
+        height: auto;
+    }
+    nav{
+        width: 100%;
+        height: auto;
+    }
+    h3{
+        font-size: 15px;
+        width: 100%;
+    }
+    h2{
+        width: 100%;
+        font-size: 190%;
+
+    }
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+        width: 370px;
+    }
+    form{
+        width: 100%;
+    }
+    img{
+        display: none;
+    }
+    input[type="email"]{
+        width: 450px;
+    }
+    input[type="text"]{
+        width: 450px;
+    }
+    button[type="submit"]{
+        width: 450px;
+    }
+}
