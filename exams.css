@@ -19,6 +19,13 @@ nav{
     background-color: rgb(189, 176, 160);
     margin-top: 0;
 }
+#info{
+    padding: 20px;
+}
+main{
+    padding: 10px;
+    border: 1px solid red;
+}
 /*styling the logo*/
 nav h1{
     font-size: 34px;
