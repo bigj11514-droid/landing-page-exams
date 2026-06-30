@@ -21,6 +21,17 @@ nav{
 }
 #info{
     padding: 20px;
+    width: 50%;
+    border: 1px solid yellow;
+}
+form{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid red;
+}
+.second{
+    width: 50%;
+    padding: 20px;
 }
 main{
     padding: 10px;
@@ -144,7 +155,8 @@ input[name="search-bar-nav"]{
 /*styling the section2*/
 #section2{
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
+    padding: 20px;
     background-color: rgb(189, 176, 160);
     height: 20%;
 }
