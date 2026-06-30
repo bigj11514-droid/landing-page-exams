@@ -25,9 +25,8 @@ nav{
     border: 1px solid yellow;
 }
 form{
-    width: 100%;
-    padding: 20px;
-    border: 1px solid red;
+    width: 550px;
+    margin-left: -10px;
 }
 .second{
     width: 50%;
@@ -128,13 +127,13 @@ form{
 }
 /*styling the label*/
 input[name="user-name"], input[type="email"]{
-    width:  600px;
+    width:  500px;
     color: blanchedalmond;
     height: 40px;
 }
 /*styling the submit button*/
 button{
-    width: 600px;
+    width: 500px;
     padding: 10px;
     border: none;
     background-color: rgb(76, 9, 85);
